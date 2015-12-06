@@ -1,0 +1,20 @@
+body {
+      text-align: center;
+      background: url("http://hdwallpapersfit.com/wp-content/uploads/2015/03/question-mark-hd-wallpaper-wallpaper-question-mark-picture-cool-black-hd-Question-Mark-HD-Wallpaper-745x558.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input, button {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"], button {
+      background: red;
+      color: white;
+    }
