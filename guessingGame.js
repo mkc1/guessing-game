@@ -138,8 +138,6 @@ function playAgain(){
   location.reload();
 }
 
-console.log(winningNumber);
-
 /* **** Event Listeners/Handlers ****  */
 function enterListener() {
   $("#playersNumber").keydown(function(event){
