@@ -14,17 +14,21 @@
 
   <h1>Guess The Number</h1>
 
-  <p>The game is simple, guess a number between 1-100.</p>
-  <p>We'll tell you if you're 'hot' or 'cold' based on how close you are.</p>
+  <h2>The game is simple, guess a number between 1-100.</h2>
+  <p id="advice"></p>
+  <div id="message"></div>
 
-  <form action="#" method="post">
-    <input type="num" placeholder="Input number 1-100">
-    <input type="submit">
-    <p><button type="button">Play Again!</button>
-    <button type="button">Hint</button></p>
+  <form id="userBox">
+    <input type="num" id="playersNumber" placeholder="Input number 1-100">
+    <button type="button" id="playersInput" onclick="myNamespace.playersGuessSubmission();">Submit</button>
+    <p><button type="button" id="replayButton" onclick="myNamespace.playAgain();">Play Again!</button>
+    <button type="button" id="hint" onclick="myNamespace.provideHint();">Hint</button></p>
   </form>
 
-  <p># guesses remaining</p>
+  <p id="guessesLeft">5 guesses remaining</p>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="guessingGame.js"></script>
 
 </body>
-</html>
